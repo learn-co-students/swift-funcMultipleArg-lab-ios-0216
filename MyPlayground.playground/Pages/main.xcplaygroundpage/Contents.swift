@@ -15,6 +15,11 @@
  */
 // write your code here
 
+func continent(continent: String, numberOfCountries: Int) {
+    print("\(continent) is a continent which contains \(countries) countries")
+}
+continent(continent:"North America", countries: 23)
+
 
 
 
@@ -25,7 +30,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting(name: "Danny",greeting: "Hello")
 
 
 
@@ -33,11 +38,11 @@ greeting("Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth(month: "November", days: 30)
 
 
 
@@ -47,6 +52,12 @@ daysInMonth("November", days: 30)
  */
 // write your code here
 
+func whereCanIPutMyBottles(beverage: String, numberOfBottles: Int, placeToKeepBottles: String){
+
+print("\(beverage) bottles of \(numberOfBottles) on \(placeToKeepBottles) wall")
+}
+
+whereCanIPutMyBottles(beverage:"Hennesy", numberOfBottles: 5, placeToKeepBottles:"bottle")
 
 
 

@@ -14,7 +14,11 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
-
+func countriesInContinent(numbersOfCountry : Int, continent : String) {
+    
+    print("\(continent) is a continent which contains \(numbersOfCountry) countries.")
+}
+countriesInContinent(1, continent: "Anartica")
 
 
 
@@ -25,7 +29,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny", greeting: "Hello")
 
 
 
@@ -37,7 +41,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth("November", days: "30")
 
 
 
@@ -46,6 +50,13 @@ daysInMonth("November", days: 30)
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 // write your code here
+
+func numberOfBlankOnTheWall(numberOfBlanks : Int, bottlesOfWhat : String, blankWhatWall : String) {
+    
+    print("\(numberOfBlanks) bottles of \(bottlesOfWhat) on the \(blankWhatWall) wall.")
+}
+
+numberOfBlankOnTheWall(98, bottlesOfWhat: "whiskey", blankWhatWall: "wooden")
 
 
 
